@@ -1,0 +1,227 @@
+.head {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+    margin: 19px 0 24px 159px;
+}
+.wapperAccount {
+    display: flex;
+
+    .navigationUser {
+        width: 280px;
+        height: 673px;
+        background: #fffefe;
+        border: 1px solid rgba(90, 90, 90, 0.4);
+        box-sizing: border-box;
+        box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        margin: 24px 37px 0 144px;
+        padding: 29px 0 0 38.13px;
+        .navigation {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 33px;
+            /* identical to box height */
+            margin-bottom: 29px;
+            color: #000000;
+        }
+        .profile {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+            margin-bottom: 18px;
+            color: #868484;
+        }
+        .history {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+            margin-bottom: 18px;
+            color: #868484;
+        }
+        .logout {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+            margin-bottom: 24px;
+            color: #868484;
+        }
+    }
+    .wapperProfile {
+        margin-top: 23px;
+        width: 835px;
+        height: 672.58px;
+        background: #fffefe;
+        border: 1px solid rgba(90, 90, 90, 0.4);
+        box-sizing: border-box;
+        border-radius: 5px;
+        .wapperRightProfile {
+            .imgUser {
+                background: rgba(182, 182, 182, 0.4);
+                display: flex;
+                width: 834px;
+                height: 258px;
+                img {
+                    width: 128px;
+                    height: 128px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                    margin: 30px 35px 0 33px;
+                }
+                .contentUser {
+                    .name {
+                        font-family: "Roboto";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 42px;
+                        margin: 39px 0 3px 0;
+                        color: #000000;
+                    }
+                    .email {
+                        font-family: "Roboto";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 23px;
+                        color: #000000;
+                        margin-bottom: 10px;
+                        span {
+                            font-weight: normal;
+                            font-size: 18px;
+                        }
+                    }
+                    .phone {
+                        font-family: "Roboto";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 23px;
+                        margin-bottom: 28px;
+                        color: #000000;
+                        span {
+                            font-weight: normal;
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .btn {
+                    width: 157px;
+                    height: 39px;
+                    background: #ffd333;
+                    border-radius: 5px;
+                    border: none;
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 39px;
+                    text-align: center;
+                }
+            }
+            .recentorder {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 33px;
+                margin: 19px 0 0 31px;
+                color: #000000;
+            }
+            .tableOrder {
+                height: 267px;
+                width: 100%;
+                border-bottom: 1px solid #a4a3a3;
+                margin-top: 18px;
+                thead {
+                    tr {
+                        background: #c4c4c4;
+                        border-radius: 5px;
+                        width: 835px;
+                        height: 54px;
+                        font-family: "Roboto";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                        text-align: center;
+                        color: #000000;
+                        td {
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            text-align: center;
+
+                            font-family: "Roboto";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 24px;
+                            line-height: 28px;
+
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.pagination{
+    margin: 23px 0 0 281px;
+}
+
+.button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dfe3e8;
+    font-size: 14px;
+    margin: 0 4px;
+    color: #212b36;
+    font-weight: bold;
+
+    &:first-of-type {
+        margin-left: 32px;
+    }
+}
+
+.previousBtn {
+    transform: rotate(180deg);
+}
+
+.active {
+    color: #000;
+    background-color: #ffd333;
+}
+
+.nav {
+    margin: 0 0 17px 0;
+    padding-left: 159px;
+    background: #fffbfb;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.32px;
+    color: #595959;
+}

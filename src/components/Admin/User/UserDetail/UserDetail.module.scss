@@ -1,0 +1,163 @@
+.container {
+    padding: 103px 32px 0 257px;
+
+    * {
+        font-family: Arial;
+    }
+
+    .title {
+        line-height: 100%;
+        color: #929395;
+        font-size: 18px;
+    }
+
+    .item_info {
+        margin-top: 21px;
+
+        * {
+            font-family: "Work Sans", sans-serif;
+        }
+
+        > p:first-of-type {
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 100%;
+            letter-spacing: -2%;
+            margin: 0;
+        }
+
+        > p:last-of-type {
+            margin: 8px 0 0 4px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: -0.02em;
+            color: #929395;
+        }
+    }
+
+    .content {
+        margin: 35px 0;
+        height: 750px;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 0 10px 3px #e5e5e5;
+        padding: 33px 28px;
+
+        > img {
+            display: block;
+            width: 238px;
+            height: 238px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: 0 auto 19px;
+        }
+
+        > p {
+            width: fit-content;
+            margin: 0 auto;
+
+            &:first-of-type {
+                font-family: "Work Sans";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 35px;
+                line-height: 41px;
+                letter-spacing: -0.02em;
+                color: #000000;
+                margin-bottom: 7px;
+            }
+
+            &:nth-of-type(2) {
+                font-family: "Work Sans";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 29px;
+                letter-spacing: -0.02em;
+                color: #2234d2;
+                margin-bottom: 8px;
+            }
+
+            &:last-of-type {
+                font-family: "Work Sans";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 29px;
+                letter-spacing: -0.02em;
+                color: #000000;
+                margin-bottom: 23px;
+            }
+        }
+
+        > hr {
+            border-top: 1px solid #929395;
+        }
+
+        > div {
+            width: 35%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+
+            > p {
+                width: 50%;
+                margin: 0;
+
+                &:nth-of-type(odd) {
+                    font-family: "Work Sans";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 29px;
+                    letter-spacing: -0.02em;
+                    margin: 15px 0;
+                    color: #000000;
+                    display: flex;
+                    align-items: center;
+                }
+
+                &:nth-of-type(even) {
+                    font-family: "Work Sans";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 29px;
+                    letter-spacing: -0.02em;
+                    color: #ffffff;
+                    justify-content: center;
+                    display: flex;
+                    align-items: center;
+                }
+
+                &:nth-of-type(6),
+                &:nth-of-type(8) {
+                    > span {
+                        display: flex;
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 50%;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+
+                &:nth-of-type(2),
+                &:nth-of-type(4) {
+                    > span {
+                        padding: 6px 24px;
+                        border-radius: 50px;
+                    }
+                }
+            }
+            .green {
+                background-color: #4b9528;
+            }
+
+            .red {
+                background-color: #e13a44;
+            }
+        }
+    }
+}

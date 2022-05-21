@@ -1,0 +1,351 @@
+.head {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+    margin: 16px 0 25px 159px;
+}
+.wapperCheckOut {
+    display: flex;
+    margin: 0 0px 0 144px;
+    .tableCheckOut {
+        width: 765px;
+        height: 100%;
+        background: #ebeaea;
+        border: 1px solid rgba(90, 90, 90, 0.4);
+        box-sizing: border-box;
+        border-collapse: separate;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-spacing: 0px;
+        margin-right: 10px;
+        .theadtb {
+            width: 765px;
+            height: 50px;
+            background: #c4c4c4;
+            tr {
+                th {
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    /* identical to box height */
+
+                    color: #000000;
+                }
+            }
+        }
+    }
+    .CheckOutRight {
+        .Info {
+            background: #ffffff;
+            border: 1px solid rgba(90, 90, 90, 0.4);
+            box-sizing: border-box;
+            border-radius: 5px;
+            width: 377px;
+            height: 246px;
+
+            .shipping {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                margin: 15px 0 10px 15px;
+                color: #000000;
+            }
+            .adrees {
+                width: 250px;
+                height: 48px;
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                margin: 0 0 10px 15px;
+                color: #000000;
+            }
+            .phone {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 16px;
+                margin: 0 0 1px 14.92px;
+                color: #000000;
+            }
+            .numberPhone {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                margin: 0 0 10px 14.92px;
+                color: #000000;
+            }
+            .email {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 16px;
+                margin: 0 0 0px 14.92px;
+                color: #000000;
+            }
+            .emailAdress {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                margin: 0 0 21px 14.92px;
+                color: #000000;
+            }
+            .editemail {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                margin: 0 0 0px 14.92px;
+                color: #2e8ada;
+            }
+        }
+        .WappercheckOut {
+            width: 377px;
+            height: 456px;
+            background: #ffffff;
+            border: 1px solid rgba(90, 90, 90, 0.4);
+            box-sizing: border-box;
+            border-radius: 5px;
+            margin-top: 11px;
+            .name {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                margin: 10px 0 17px 14px;
+                color: #000000;
+            }
+            .Subtotal {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                .contentSubtotal {
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    /* identical to box height */
+                    margin-left: 14px;
+                    color: #000000;
+                }
+                .priceSubtotal {
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    margin-right: 29px;
+                    color: #5a5a5a;
+                }
+            }
+            .shipping {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 16px;
+                .contentShipping {
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000000;
+                    margin-left: 14px;
+                }
+                .priceShipping {
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    /* identical to box height */
+
+                    text-align: right;
+                    margin-right: 29px;
+                    color: #5a5a5a;
+                }
+            }
+            .mainPrice {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 11px;
+                .contentPrice {
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000000;
+                    margin: 0 0 0 15px;
+                }
+                .pricePrice {
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    /* identical to box height */
+                    margin-right: 29px;
+                    text-align: right;
+
+                    color: #5a5a5a;
+                }
+            }
+            .btnCheckout {
+                width: 300px;
+                height: 35px;
+                background: #ffd333;
+                border-radius: 5px;
+                font-family: "Roboto";
+                font-style: normal;
+                font-size: 24px;
+                line-height: 28px;
+                text-align: center;
+                color: #000000;
+                line-height: 35px;
+                margin: 0px 38px 0 39px;
+                border: none;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.cashPrice {
+    width: 300px;
+    height: 33px;
+    border: 1px solid rgba(90, 90, 90, 0.4);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    margin: 34px 38px 12px 39px;
+
+    color: #000000;
+    input {
+        line-height: 33px;
+        margin: 0 19px 0 13px;
+    }
+    span {
+        line-height: 33px;
+    }
+}
+.checkPrice {
+    width: 300px;
+    height: 33px;
+    border: 1px solid rgba(90, 90, 90, 0.4);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    margin: 0 38px 12px 39px;
+
+    color: #000000;
+    input {
+        line-height: 33px;
+        margin: 0 19px 0 13px;
+    }
+    span {
+        line-height: 33px;
+    }
+}
+.PayPrice {
+    width: 300px;
+    height: 33px;
+    border: 1px solid rgba(90, 90, 90, 0.4);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    margin: 0 38px 12px 39px;
+
+    color: #000000;
+    input {
+        line-height: 33px;
+        margin: 0 19px 0 13px;
+    }
+    span {
+        line-height: 33px;
+    }
+}
+.masterPrice {
+    width: 300px;
+    height: 33px;
+    border: 1px solid rgba(90, 90, 90, 0.4);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    margin: 0 38px 23px 39px;
+
+    color: #000000;
+    input {
+        line-height: 33px;
+        margin: 0 19px 0 13px;
+    }
+    span {
+        line-height: 33px;
+    }
+}
+
+.nav {
+    margin: 0 0 17px 0;
+    padding-left: 159px;
+    background: #fffbfb;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.32px;
+    color: #595959;
+}
+
+.nav {
+    margin: 0 0 17px 0;
+    padding-left: 159px;
+    background: #fffbfb;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.32px;
+    color: #595959;
+}

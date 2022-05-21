@@ -1,0 +1,175 @@
+.table {
+    width: 100%;
+    text-align: left;
+    padding: 0 34px;
+
+    > thead {
+        > tr {
+            width: 100%;
+
+            > th {
+                &:first-child {
+                    padding-left: 34px;
+                }
+
+                > p {
+                    margin: 21px 8px 24px 0;
+                    display: inline-block;
+                    font-size: 20px;
+                    line-height: 100%;
+                }
+
+                > img {
+                    transform: translateY(-4px);
+                }
+            }
+        }
+    }
+
+    > tbody {
+        > tr {
+            border-top: 1px solid #929395;
+        }
+
+        td {
+            font-size: 20px;
+            padding: 16px 0;
+
+            &:first-child {
+                padding-left: 34px;
+            }
+
+            button {
+                border: none;
+                background-color: #fff;
+                margin-right: 11px;
+            }
+
+            > p {
+                font-family: "Arial";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 23px;
+                margin: 0;
+                width: 72px;
+                height: 25px;
+                border-radius: 20px;
+                color: #fff;
+                text-align: center;
+            }
+
+            .yes {
+                background-color: #ffd333;
+            }
+
+            .no {
+                background: #366ab8;
+            }
+        }
+
+        .column_product {
+            display: flex;
+            align-items: center;
+            position: relative;
+
+            > img {
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+            }
+
+            > div {
+                padding: 0 0 0 11px;
+                // width: 100%;
+
+                > a {
+                    color: #000;
+                }
+
+                .admin,
+                .customer {
+                    display: block;
+                    position: absolute;
+                    font-size: 12px;
+                    line-height: 14px;
+                    right: 100px;
+                    top: 11px;
+                    color: #fff;
+                    border-radius: 10px;
+                }
+
+                .admin {
+                    background: #4b9528;
+                    padding: 2px 16px;
+                }
+
+                .customer {
+                    background-color: #e13a44;
+                    padding: 2px 10px;
+                }
+
+                > p {
+                    margin: 0;
+                }
+
+                > p:last-of-type {
+                    font-size: 18px;
+                    color: #929395;
+                    line-height: 21px;
+                }
+            }
+        }
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    padding: 54px 0 32px 0;
+    margin-bottom: 43px;
+
+    .pagination_right {
+        display: flex;
+
+        > p {
+            font-size: 20px;
+            font-family: Roboto;
+            color: #000;
+            margin: 0;
+            line-height: 100%;
+        }
+
+        > input {
+            width: 55px;
+            height: 25px;
+            padding: 0 0 0 6px;
+            margin: 0 31px 0 5px;
+        }
+    }
+}
+
+.button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dfe3e8;
+    font-size: 14px;
+    margin: 0 4px;
+    color: #212b36;
+    font-weight: bold;
+
+    &:first-of-type {
+        margin-left: 32px;
+    }
+}
+
+.previousBtn {
+    transform: rotate(180deg);
+}
+
+.active {
+    color: #000;
+    background-color: #ffd333;
+}

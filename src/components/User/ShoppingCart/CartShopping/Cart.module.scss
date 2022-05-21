@@ -1,0 +1,270 @@
+.head {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+    margin: 19px 0 20px 159px;
+}
+.tableCart {
+    width: 1151px;
+    height: 184px;
+    margin: 20px 0 43px 144px;
+    border: 1px solid rgba(90, 90, 90, 0.41);
+    border-collapse: separate;
+    // border:solid black 1px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-spacing: 0px;
+    text-align: center;
+
+    thead {
+        height: 50px;
+        tr {
+            background: #c4c4c4;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            .imgTb {
+                // padding: 15px 24 16px 64px;
+                width: 20%;
+            }
+            .productTb {
+                width: 35%;
+                text-align: left;
+            }
+            .priceTb {
+                width: 10%;
+            }
+            .quantityTb {
+                width: 25%;
+            }
+            .totalTb {
+                width: 10%;
+            }
+        }
+    }
+    tbody {
+        tr {
+            .imgBody {
+                padding: 10px 0 15px 0;
+            }
+            .productBody {
+                font-family: "Arial";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                text-align: left;
+                color: #000000;
+            }
+            .priceBody {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+
+                color: #000000;
+            }
+            .quantityBody {
+                .btnBodyLeft {
+                    height: 42.08px;
+                    width: 54px;
+                    background: #e2e4e6;
+                    border: 1px solid #959595;
+                    box-sizing: border-box;
+                    border-right: none;
+                    color: #33a0ff;
+                    border-radius: 5px 0 0 5px;
+                }
+                .inputBody {
+                    height: 42.08px;
+                    width: 54px;
+                    background: #e2e4e6;
+                    border: 1px solid #959595;
+                    box-sizing: border-box;
+                    border-left: none;
+                    border-right: none;
+                    text-align: center;
+                }
+                .btnBodyRight {
+                    height: 42.08px;
+                    width: 54px;
+                    background: #e2e4e6;
+                    border: 1px solid #959595;
+                    box-sizing: border-box;
+                    border-left: none;
+                    color: #33a0ff;
+                    border-radius: 0px 5px 5px 0px;
+                }
+            }
+            .totalBody {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                color: #000000;
+            }
+        }
+    }
+}
+
+.wapperCart {
+    display: flex;
+    .wapperBtn {
+        .btnCode {
+            background: #c4c4c4;
+            border-radius: 5px;
+            width: 280px;
+            height: 49px;
+            border: none;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            padding-left: 19px;
+            color: #5a5a5a;
+            margin: 0 16px 0 144px;
+        }
+        .btnApply {
+            width: 178px;
+            height: 49px;
+            background: #ffd333;
+            border-radius: 5px;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            border: none;
+            margin-right: 107px;
+            color: #000000;
+        }
+    }
+    .wapper__CartTotals {
+        width: 571px;
+        height: 450px;
+        background: #fffefe;
+        border: 1px solid rgba(90, 90, 90, 0.4);
+        box-sizing: border-box;
+        border-radius: 5px;
+        .CartTotals {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 40px;
+            margin: 18px 0px 31px 31px;
+            color: #000000;
+        }
+        .Subtotal {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 38px;
+            .contentSubtotal {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                color: #000000;
+                margin-left: 31px;
+            }
+            .priceSubtotal {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                margin-right: 65px;
+                color: #5a5a5a;
+            }
+        }
+        .shipping {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 49px;
+            .contentShipping {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                margin-left: 32px;
+                color: #000000;
+            }
+            .priceShipping {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                text-align: right;
+                margin-right: 64px;
+                color: #5a5a5a;
+            }
+        }
+        .mainPrice {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 48px;
+            .contentPrice {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 38px;
+                margin-left: 31px;
+                color: #000000;
+            }
+            .pricePrice {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                margin-right: 65px;
+                color: #5a5a5a;
+            }
+        }
+        button {
+            width: 487px;
+            height: 69px;
+            background: #ffd333;
+            border-radius: 5px;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 40px;
+            margin-left: 41px;
+            color: #000000;
+            border: none;
+        }
+    }
+}
+
+
+.nav {
+    margin: 0 0 17px 0;
+    padding-left: 159px;
+    background: #fffbfb;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.32px;
+    color: #595959;
+}

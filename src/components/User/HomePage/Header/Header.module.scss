@@ -1,0 +1,144 @@
+.about__us {
+    background-color: #f0e9e9;
+    height: 38px;
+    margin-top: 5px;
+    border-radius: 5px 5px 0px 0px;
+    div {
+        font-size: 16px;
+        font-style: normal;
+        color: #5b5b5b;
+        line-height: 38px;
+        font-weight: 400;
+        padding-right: 10px;
+    }
+}
+
+.content {
+    background-color: #ffd333;
+    height: 121px;
+    h4 {
+        line-height: 121px;
+        // font-family: "Red Rose";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        color: #000000;
+        text-transform: uppercase;
+        width: 198px;
+        height: 56.26px;
+    }
+    .cart {
+        line-height: 121px;
+        margin-left: 30px;
+    }
+    .main_bar {
+        position: relative;
+        button {
+            width: 130px;
+            height: 50px;
+            border-radius: 5px 0 0 5px;
+            border-left: none;
+            border-top: none;
+            border-bottom: none;
+            border-right: 1px solid #6c6c6c;
+            // transform: rotate(90deg);
+            color: #4b4b4b;
+            background: #c4c4c4;
+            font-weight: 700;
+
+            svg {
+            }
+        }
+        input {
+            position: relative;
+            font-style: normal;
+            font-weight: 400;
+            // font-size: 25px;
+            color: #535353;
+            width: 620px;
+            height: 50px;
+            background: #c4c4c4;
+            border: none;
+            top: 1px;
+            padding-left: 27px;
+            border-radius: 0 5px 5px 0;
+        }
+        &:focus {
+            border: none;
+            outline: none;
+        }
+        span {
+            line-height: 121px;
+            i {
+                position: absolute;
+                right: 20px;
+                top: 55px;
+            }
+        }
+    }
+    .user_logo {
+        img {
+            width: 49px;
+            height: 49px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        svg {
+            font-size: 42px;
+        }
+        line-height: 119px;
+        margin-left: 32px;
+    }
+}
+
+.button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dfe3e8;
+    font-size: 14px;
+    margin: 0 4px;
+    color: #212b36;
+    font-weight: bold;
+
+    &:first-of-type {
+        margin-left: 32px;
+    }
+}
+
+.previousBtn {
+    transform: rotate(180deg);
+}
+
+.active {
+    color: #000;
+    background-color: #ffd333;
+}
+
+.popUpLogin {
+    width: 217px;
+    height: 193px;
+    background: #ffffff;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 25px 0 0 34.04px;
+    color: #868484;
+    left: 1058px;
+    top: 177px;
+    z-index: 1000;
+    cursor: pointer;
+    .mypf {
+        margin-bottom: 18px;
+    }
+    .popUporder {
+        margin-bottom: 24px;
+    }
+    .popUlogout {
+    }
+}

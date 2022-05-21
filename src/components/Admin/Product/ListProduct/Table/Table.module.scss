@@ -1,0 +1,129 @@
+.table {
+    width: 100%;
+    text-align: left;
+    padding: 0 34px;
+
+    > thead {
+        > tr {
+            width: 100%;
+
+            > th {
+
+                &:first-child{
+                    padding-left: 34px;
+                }
+
+                > p {
+                    margin: 21px 8px 24px 0;
+                    display: inline-block;
+                    font-size: 20px;
+                    line-height: 100%;
+                }
+
+                > img {
+                    transform: translateY(-4px);
+                }
+            }
+            
+        
+        }
+    }
+
+    > tbody {
+
+        > tr {
+            border-top: 1px solid #929395;
+        }
+
+        td {
+            font-size: 20px;
+            padding: 16px 0;
+
+            &:first-child{
+                padding-left: 34px;
+            }
+
+            button {
+                border: none;
+                background-color: #fff;
+                margin-right: 11px;
+            }
+        }
+
+        .column_product {
+            display: flex;
+            align-items: center;
+
+            > img {
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+            }
+
+            > div {
+                padding: 0 0 0 11px;
+
+                > p {
+                    margin: 0;
+                }
+
+                > p:last-of-type {
+                    font-size: 18px;
+                    color: #929395;
+                    line-height: 21px;
+                }
+            }
+        }
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    padding: 54px 0 32px 0;
+    margin-bottom: 43px;
+
+    .pagination_right{
+        display: flex;
+
+        > p {
+            font-size: 20px;
+            font-family: Roboto;
+            color: #000;
+            margin: 0;
+            line-height: 100%;
+        }
+
+        > input {
+            width: 55px;
+            height: 25px;
+            padding: 0 0 0 6px;
+            margin: 0 31px 0 5px;
+        }
+    }
+}
+
+.button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    background-color: #DFE3E8;
+    font-size: 14px;
+    margin:  0 4px;
+    color: #212b36;
+    font-weight: bold;
+
+    &:first-of-type{
+        margin-left: 32px;
+    }
+}
+
+.previousBtn{
+    transform: rotate(180deg);
+}
+
+.active {
+    color: #000;
+    background-color: #FFD333;
+}

@@ -1,0 +1,477 @@
+.wapper__product {
+    display: flex;
+    margin: 0 143px;
+    .wapperImg {
+        .mainImg {
+            margin: 0 10px 21px 0;
+            img {
+                height: 474px;
+                width: 474px;
+                object-fit: cover;
+            }
+            border-radius: 5px;
+        }
+        .litteImg {
+            img {
+                height: 87px;
+                width: 87px;
+                border-radius: 5px;
+                object-fit: cover;
+                margin-right: 10px;
+            }
+            :nth-child(5) {
+                margin-right: 0;
+            }
+        }
+    }
+    .content {
+        width: 668px;
+        height: 580px;
+        .nameProduct {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 47px;
+            align-items: center;
+            letter-spacing: -0.32px;
+            margin: 30px 59px 21px 21px;
+            text-transform: uppercase;
+        }
+        .vote {
+            margin-bottom: 21px;
+            .star {
+                margin: 0 0 26.66px 21px;
+                padding-left: 17px;
+                svg {
+                    margin-right: 8px;
+
+                    &:nth-child(5) {
+                        margin-right: 0;
+                    }
+                }
+            }
+            .reviewer {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                color: #565353;
+            }
+            .sold {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+
+                color: #565353;
+            }
+            .rowLine {
+                margin: 0 13px;
+            }
+        }
+        .discript {
+            margin: 0 22px 19.62px 21px;
+            width: 625px;
+            height: 74.74px;
+            border-bottom: 1px solid #737070;
+        }
+
+        .underLine {
+            margin: 0 0 14.86px 21px;
+            .avai {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                color: #5a5a5a;
+                margin-right: 49px;
+                span {
+                    color: green;
+                }
+            }
+            .brand {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                margin-right: 33px;
+                color: #5a5a5a;
+            }
+            .sku {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                text-transform: uppercase;
+                color: #5a5a5a;
+            }
+        }
+        .price {
+            margin-left: 22px;
+            height: 39px;
+            .priceUSD {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 38px;
+                margin-right: 22px;
+                color: #000000;
+            }
+            .sell {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 35px;
+                text-align: center;
+                background-color: #ffd333;
+                color: #c90404;
+                width: 76px;
+                height: 32px;
+                border: 1px solid rgba(186, 186, 186, 0.4);
+                box-sizing: border-box;
+                border-radius: 5px;
+            }
+        }
+        .quantity {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            margin: 30px 0 0 22px;
+            color: #5a5a5a;
+        }
+        .btn__quantity {
+            display: flex;
+            margin: 11.45px 0 0 21px;
+
+            .btn__plus {
+                width: 162.37px;
+                height: 42.08px;
+                // text-align: center;
+                // color: #093545;
+                // background-color: #E2E4E6;
+                div {
+                    div {
+                        button {
+                            background-color: #e2e4e6 !important;
+                            border: none;
+                            color: #33a0ff;
+                        }
+                        + input {
+                            background-color: #e2e4e6 !important;
+                            border: none;
+                            text-align: center;
+                        }
+                    }
+                }
+                .InputSpinner {
+                    background: #e2e4e6;
+                    border: 1px solid #959595;
+                }
+            }
+            .btn_cart {
+                margin-left: 18.63px;
+                button {
+                    background: #ffd333;
+                    border-radius: 5px;
+                    width: 164px;
+                    height: 42px;
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    border: none;
+
+                    color: #000000;
+                    span {
+                        margin-right: 7px;
+                    }
+                }
+            }
+        }
+
+        .rate {
+            margin: 11.92px 0 5px 23px;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #5a5a5a;
+        }
+        .rateStar {
+            margin-left: 21px;
+            svg {
+                margin-right: 8px;
+            }
+        }
+    }
+}
+
+Nav {
+    margin-left: 144px;
+}
+.wapperReviews {
+    width: 1151px;
+    height: 100%;
+    border-top: 1px solid #c2c2c2;
+    margin-left: 142px;
+    .content {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 33px;
+        color: #000000;
+        margin: 24px 0 21px 50px;
+    }
+    .frameReviews {
+        display: flex;
+        width: 1051px;
+        height: 124px;
+        margin: 0 50px;
+        border-bottom: 2px solid #d8d8d8;
+        .avtar {
+            margin: 14.12px 27px 0 13px;
+            img {
+                width: 56px;
+                height: 56.48px;
+                border-radius: 50%;
+            }
+        }
+        .contenReview {
+            .nameCustomer {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 21px;
+                margin: 9px 0 6px 0;
+                color: #000000;
+            }
+            .wordReview {
+                width: 947px;
+                height: 38.37px;
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                margin: 5.33px 8px 0 0;
+                color: #000000;
+            }
+            .dateReview {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 14px;
+                color: #5a5a5a;
+            }
+            .rateStarCus {
+                svg {
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
+}
+// btn pagiantion
+.btnPagination {
+    margin: 19px 0 19px 439px;
+    button {
+        width: 32px;
+        height: 32px;
+        background: #e5e5e5;
+        border: 1px solid #dfe3e8;
+        box-sizing: border-box;
+        border-radius: 4px;
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #212b36;
+        &:active {
+            background-color: #ffd333;
+        }
+    }
+}
+// Wirte review
+.wapper__WriteReview {
+    width: 1151px;
+    height: 249px;
+    margin-left: 141px;
+    padding-left: 50px;
+    .headReview {
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        color: #000000;
+        margin: 23px 0 9px 0px;
+    }
+    .wirtePostReview {
+        width: 1051px;
+        height: 83px;
+        background: #e6e6e6;
+        border: 1px solid #6a6a6a;
+        box-sizing: border-box;
+        border-radius: 5px;
+        display: block;
+        padding: 12px 0 0 15px;
+        margin: 13.86px 0 13px 0;
+    }
+    .btnPostReview {
+        background: #ffd333;
+        border-radius: 5px;
+        width: 248px;
+        height: 40px;
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        border: none;
+        color: #000000;
+    }
+}
+
+.RelatedProduct {
+    .nameRealted {
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        margin: 27px 9px 16px 156px;
+
+        color: #000000;
+    }
+    .RelatedLeft {
+        margin: 0 8px 0 12px;
+        svg{
+            width: 26px;
+            height: 25px;
+            background: #C4C4C4;
+            border-radius: 5px;
+        }
+        
+    }
+    .RelatedRight {
+        svg{
+            width: 26px;
+            height: 25px;
+            background: #C4C4C4;
+            border-radius: 5px;
+        }
+    }
+}
+
+.wapper__item {
+    margin: 19px 144px 0 144px;
+    display: flex;
+
+    .frame {
+        background: #fffcfc;
+        border: 1px solid #b4b1b1;
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 280px;
+        height: 395px;
+        margin-right: 11px;
+        margin-bottom: 15px;
+        img {
+            width: 233.18px;
+            height: 200px;
+            object-fit: cover;
+            box-shadow: 0.5px 0.5px 12px rgba(0, 0, 0, 0.25);
+            border-radius: 5px;
+            margin: 21px 23.87px 15px 22.95px;
+        }
+        .content__item {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 37px;
+            color: #000000;
+            margin: 0 45.05px 0 22.95px;
+            width: 212px;
+            height: 37px;
+            overflow: hidden;
+        }
+        .id__item {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            width: 194.62px;
+            height: 28px;
+            color: #000000;
+            margin: 0 62.43px 6px 22.95px;
+        }
+        .wapper__item__star {
+            display: flex;
+            justify-content: space-between;
+            .wapper__item__star_small {
+                &:nth-child(1) {
+                    margin-left: 22.95px;
+                }
+                svg {
+                    width: 14.69px;
+                    height: 15px;
+                }
+            }
+            .saleof__item {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 18px;
+                width: 60px;
+                height: 18px;
+                color: #d70000;
+                margin: 7px 30px 0 0;
+            }
+        }
+        .wapper__item__star {
+            .money {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                width: 94px;
+                height: 28px;
+                color: #000000;
+                margin: 0 83.57px 0 25px;
+            }
+            .cart__item {
+                margin-right: 30px;
+                svg {
+                    height: 28px;
+                    width: 28.46px;
+                }
+            }
+        }
+        .btn_item {
+            background: rgba(0, 167, 17, 0.5);
+            border: 1px solid rgba(0, 202, 20, 0.5);
+            box-shadow: 5px 5px 20px rgba(196, 255, 202, 0.5);
+            border-radius: 10px;
+            color: #fff;
+            width: 98px;
+            height: 24px;
+            margin-left: 25px;
+            // padding: 4px 21px ;
+        }
+    }
+}

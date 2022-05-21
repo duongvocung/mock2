@@ -1,0 +1,215 @@
+.form {
+    .item_info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 21px;
+
+        * {
+            font-family: "Work Sans", sans-serif;
+        }
+
+        > p {
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 100%;
+            letter-spacing: -2%;
+            margin: 0;
+        }
+
+        > button {
+            background-color: #ffd333;
+            padding: 9px 10px;
+            border: none;
+            border-radius: 5px;
+            height: 40px;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 100%;
+        }
+    }
+
+    .content {
+        margin: 35px 0;
+        display: flex;
+        flex-wrap: wrap;
+
+        .title {
+            font-family: "Arial";
+            // font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 25px;
+            margin: 0 0 12px 26px;
+        }
+
+        .content_left {
+            background-color: #fff;
+            min-width: 676px;
+            flex-grow: 1;
+            box-shadow: 0 0 10px 3px #c9c9c9;
+            padding: 18px 0 0;
+            margin: 0 35px 0 0;
+
+            .form_body {
+                padding: 21px 30px;
+                border-top: 1px solid #929395;
+
+                > div {
+                    margin: 0 0 25px;
+
+                    &:last-of-type {
+                        margin: 0;
+                    }
+
+                    > p {
+                        margin: 0 0 11px;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 21px;
+                    }
+
+                    > input,
+                    > textarea {
+                        height: 40px;
+                        width: 100%;
+                        border: 1px solid #929395;
+                        border-radius: 2px;
+                        padding: 0 10px;
+                    }
+
+                    > textarea {
+                        height: 112px;
+                    }
+
+                    &:nth-of-type(3), &:nth-of-type(4){
+                        width: 50%;
+                        display: inline-block;
+                    }
+
+                    &:nth-of-type(3){
+                        padding-right: 20px;
+                    }
+
+                    &:nth-of-type(4){
+                        padding-left: 20px;
+                    }
+
+                    .error {
+                        color: #bf0a30;
+                        margin: 4px 0 0;
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+
+    .content_right {
+        min-width: 431px;
+
+        > .content_right_item {
+            background-color: #fff;
+            box-shadow: 0 0 10px 3px #c9c9c9;
+            padding: 15px 0 0;
+            margin-top: 34px;
+
+            > div {
+                border-top: 1px solid #929395;
+            }
+
+            .upload{
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+
+            &:first-of-type {
+                margin-top: 0;
+
+                > div {
+                    padding: 25px 27px;
+                    text-align: center;
+                    > div {
+                        border: 1px solid #929395;
+                        border-radius: 2px;
+                        margin: 25px 0 0;
+
+                        > label {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 124px;
+                            height: 40px;
+                            background: #c4cdd5;
+                            border-radius: 2px;
+                            font-family: "Arial";
+                            font-style: normal;
+                            font-size: 18px;
+                            line-height: 21px;
+                            letter-spacing: -0.02em;
+                            color: #000;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+
+            &:nth-of-type(2) {
+                > div {
+                    padding: 28px 27px;
+
+                    > div {
+                        position: relative;
+                        padding: 11px 11px 24px;
+                        border: 1px solid #929395;
+                        border-radius: 2px;
+
+                        > img {
+                            position: absolute;
+                            left: 25.5px;
+                            top: 14.5px;
+                        }
+
+                        > input {
+                            width: 50%;
+                            height: 24px;
+                            background: #919eab;
+                            border-radius: 2px;
+                            border: none;
+                            padding: 0 0 0 36px;
+                            font-family: "Work Sans";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 21px;
+                            letter-spacing: -0.02em;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+
+            &:nth-of-type(3) {
+                > div {
+                    padding: 21px 25px 127px;
+
+                    > select {
+                        width: 100%;
+                        background: #ffffff;
+                        border: 1px solid #929395;
+                        box-sizing: border-box;
+                        border-radius: 2px;
+                        height: 40px;
+
+                        > option {
+                            width: 18%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+.container {
+    height: 78px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    padding: 0 0 0 225px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        height: 100%;
+        width: auto;
+    }
+
+    .left_item {
+        display: flex;
+        align-items: center;
+
+        > img {
+            margin: 0 27px 0 25px;
+        }
+
+        .search_group {
+            display: flex;
+            position: relative;
+
+            > input {
+                border: none;
+                background: #e5e5e5;
+                width: 292px;
+                height: 42.55px;
+                border-radius: 5px;
+                padding: 6px 10px 0 45px;
+
+                &::placeholder {
+                    font-family: Arial;
+                    font-weight: 400;
+                    font-size: 20px;
+                }
+            }
+
+            label {
+                position: absolute;
+                top: 50%;
+                left: 11px;
+                transform: translateY(-50%);
+            }
+        }
+    }
+
+    .right_item {
+        display: flex;
+        align-items: center;
+
+        > img {
+            &:first-of-type {
+                margin: 0 20.5px 0 0;
+            }
+
+            &:last-of-type {
+                margin: 0 13px 0 0;
+            }
+        }
+
+        > div {
+            display: flex;
+            flex-direction: column;
+            margin: 0 25px 0 0;
+
+            > p {
+                font-family: Arial !important;
+                margin: 0;
+
+                &:first-of-type {
+                    font-size: 18px;
+                    line-height: 20.7px;
+                }
+
+                &:last-of-type {
+                    font-size: 15px;
+                    line-height: 17.5px;
+                    color: #929395;
+                }
+            }
+        }
+    }
+
+    .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+}
